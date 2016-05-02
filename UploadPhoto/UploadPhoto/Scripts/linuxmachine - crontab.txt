@@ -1,0 +1,9 @@
+﻿# add following lines at the end of crontab file
+# capture the pictures every minute
+0-56 0-10 * * * /home/pi/pictures/camera.sh 2>&1
+# upload the captured images 57th minute of every hour - Total 57 pictures should be uploaded every hout
+57 * * * * /home/pi/UploadPhoto/upload.sh 2>&1
+# Example of how to capture picture every five minutes
+#0,5,10,15,20,25,30,35,40,45,50,55 * * * * /home/pi/pictures/camera.sh 2>&1
+
+
