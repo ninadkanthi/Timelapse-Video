@@ -2,7 +2,6 @@ rem this batch file copies the program on the linux machine and make a shell pro
 @echo off
 set puttydir=C:\Downloads\Linux\
 set prjdir=C:\raspberrypi2\UploadPhoto\UploadPhoto\
-rem set rpi_ip=raspberrypi
 set rpi_ip=192.168.0.8
 set rpi_usr=pi
 set rpi_pw=[insertpasswordfordevice]

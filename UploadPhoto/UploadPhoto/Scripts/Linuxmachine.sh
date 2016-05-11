@@ -32,3 +32,4 @@ mv -f /home/linuxuser/Share/*.jpg /home/linuxuser/backup
 echo --------- DONE
 
 
+

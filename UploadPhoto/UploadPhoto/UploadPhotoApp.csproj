@@ -88,7 +88,9 @@
     <None Include="Scripts\createavi.sh" />
     <None Include="Scripts\CreateAzureShare.ps1" />
     <None Include="Scripts\Linuxmachine.sh" />
+    <None Include="Scripts\machinestartup.sh" />
     <None Include="Scripts\Photo.cmd" />
+    <None Include="Scripts\upload.sh" />
     <None Include="UploadPhotoApp.exe.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
